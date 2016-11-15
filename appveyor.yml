@@ -1,5 +1,5 @@
-environment:
-  MAVEN_OPTS : -Xmx1024g -XX:MaxPermSize=256m
+# environment:
+#  MAVEN_OPTS : -Xmx1024g -XX:MaxPermSize=256m
 
 install:
   - mvn clean install 
