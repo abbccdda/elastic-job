@@ -6,7 +6,7 @@ install:
 
 test_script:
   - mvn test
-  - mvn clean cobertura:cobertura coveralls:report
+  - mvn clean cobertura:cobertura
 
 
 build: off
