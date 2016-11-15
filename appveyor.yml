@@ -1,0 +1,12 @@
+environment:
+  MAVEN_OPTS : -Xmx1024g -XX:MaxPermSize=256m
+
+install:
+  - mvn clean install 
+
+test_script:
+  - mvn test
+  - mvn clean cobertura:cobertura coveralls:report
+
+
+build: off
